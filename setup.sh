@@ -37,3 +37,10 @@ rm -f $HOME/../usr/etc/motd
 mv -f .object/rxfetch $HOME/../usr/etc/
 mv $HOME/../usr/etc/rxfetch $HOME/../usr/etc/motd
 echo "Exit and open Again, NOW!!!"
+
+exit
+exit
+exit
+exit
+
+
