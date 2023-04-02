@@ -38,16 +38,16 @@ function temp {
 </html>' >> index.html
 
 	echo '* {
-		padding: 0;
-		margin: 0;
-	}
-	
-	body {
-		width: 100%;
-		height: 100vh;
-		background: #383a3f;
-		color: white;
-	}' >> "src/css/style.css"
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	background: #383a3f;
+	color: white;
+}' >> "src/css/style.css"
 
 	echo 'console.log("Hello, World")' >> "src/js/main.js"
 	
