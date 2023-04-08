@@ -25,7 +25,7 @@ mkdir $HOME/.termux
 cd && cd .termux && start_spinner "Downloading Font" && curl -fLo font.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip > /dev/null 2>&1 && stop_spinner $? && mkdir fonts && mv -f font.zip fonts && cd fonts && unzip font.zip > /dev/null 2>&1 && mv -f "Hack Regular Nerd Font Complete.ttf" .. && cd .. && mv "Hack Regular Nerd Font Complete.ttf" font.ttf && rm -rf fonts && cd
 
 mv -f $HOME/.object/colors.properties $HOME/.termux/
-node_modules_my_dev=('live-server' 'sass' 'typescript')
+node_modules_my_dev=('live-server-mobile-dev' 'sass' 'typescript')
 
 for node in "${node_modules_my_dev[@]}"; do
 	start_spinner $node
